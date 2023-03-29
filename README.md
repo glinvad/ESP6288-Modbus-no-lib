@@ -7,7 +7,7 @@ you can also write to the next and they will be sent to out via the serial monit
 
 have fun
 
-![The good old esp](Pic/esp.gif)
+![The good old esp](Pic/esp.jpg)
 The good old NodeMCU0.9 :)
 
 ![Testing with qModMaster](Pic/qModmaster.gif)
