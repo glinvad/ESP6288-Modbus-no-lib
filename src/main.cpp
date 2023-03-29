@@ -4,7 +4,7 @@ const char* ssid = "******";		// <----------- input your SSID
 const char* password = "******";	// <----------- input your Password
 int ModbusTCP_port = 502;
  
-//////// Required for Modbus TCP / IP /// Requerido para Modbus TCP/IP /////////
+//////// Required for Modbus TCP / IP /// 
 #define maxInputRegister 20
 #define maxHoldingRegister 20
  
@@ -102,9 +102,8 @@ void loop() {
  
  
  
-///// code here --- codigo aqui
+///// code here
  
- ///////// Holding Register [0] A [9] = 10 Holding Registers Escritura
  ///////// Holding Register [0] A [9] = 10 Holding Registers Writing
  
  MBHoldingRegister[0] = random(0,12);
@@ -119,9 +118,6 @@ void loop() {
  MBHoldingRegister[9] = random(0,12);
  
  
- 
- 
- ///////// Holding Register [10] A [19] = 10 Holding Registers Lectura
  ///// Holding Register [10] A [19] = 10 Holding Registers Reading
  
  int Temporal[10];
@@ -156,7 +152,7 @@ void loop() {
  
  
  
-//// end code - fin 
+//// end code
  
  
  //// rutine Modbus TCP
