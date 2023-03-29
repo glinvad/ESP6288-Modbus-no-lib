@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
  
-const char* ssid = "Home";
-const char* password = "helge007";
+const char* ssid = "******";		// <----------- input your SSID
+const char* password = "******";	// <----------- input your Password
 int ModbusTCP_port = 502;
  
 //////// Required for Modbus TCP / IP /// Requerido para Modbus TCP/IP /////////
