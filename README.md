@@ -7,8 +7,7 @@ you can also write to the next and they will be sent to out via the serial monit
 
 have fun - and remeber, only 1 client can be connected to a modbus server a time.
 
-![The good old esp](Pic/esp.jpg)
-<img src="Pic/esp.jpg" width="50%" height="50%" />
+<img src="Pic/esp.jpg" width="35%" height="35%" />
 The good old NodeMCU0.9 :)
 
 ![Testing with qModMaster](Pic/qModmaster.gif)
